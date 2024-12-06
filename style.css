@@ -1,0 +1,169 @@
+body {
+  margin: 0; 
+  padding: 0; 
+  min-height: 100vh; 
+  background-attachment: fixed;
+  background: linear-gradient(390deg ,rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0)); 
+  display: flex;
+  position: relative;
+  background-size: cover;
+  background-position: center;  
+}
+
+.navbar{
+  margin: 0;
+  background: linear-gradient(390deg ,rgb(25, 21, 21),rgb(164, 14, 14)); 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 2px solid black;
+
+}
+
+.navbar-nav{
+  font-size: 30px;
+  gap: 22px;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-item{
+  font-size: 23px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+.collapse{
+  justify-content: center;
+}
+.navbar-nav .nav-item {
+  margin-right: 105px; 
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;  
+} 
+
+
+.head-box{
+  padding: 10px 10px;
+  margin: 0;
+  border-top: 2px;
+  border-bottom: 0;
+  border-style: solid;
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+
+}
+
+.container{
+  padding: 50px 50px;
+  margin: 0;
+  width: 500px;
+  height: 400px;
+  background-image: url(Images/burgernew.png);
+  display: flex;
+  position: fixed;
+  background-size: cover;
+  position: fixed;
+  box-shadow: 10px 20px 20px rgb(0, 0, 0);
+  margin-left: 46%;
+  margin-top: -160px;  
+}
+
+.order:hover{
+  background-color: rgb(255, 255, 255);
+  color: brown;
+}
+
+
+.login:hover{
+  background-color: rgb(255, 255, 255);
+  color: brown;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0); 
+  backdrop-filter: blur(10px); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  justify-content: center;
+  margin-left: 81%; 
+  margin-bottom: 32px;
+  border: 2px solid black;
+}
+
+.login-form h2 {
+  font-size: 44px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form label {
+  color: #fff;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  outline: none;
+}
+
+.login-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d93203;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.buttons{
+  margin: 0;
+  padding: 20px ;
+  position: relative;
+  top: 1%;
+  width: fit-content;  
+
+}
+
+.btns {
+  padding: 10px 10px;
+  width: 100%;
+  height: 54%;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+  background-color: brown;
+  border: 2px solid rgb(26, 13, 13);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+
+}
+
+.login{
+
+
+}
+
+
+.order{
+  
+}
